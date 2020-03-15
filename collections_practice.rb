@@ -31,6 +31,12 @@ def kesha_maker(array)
   end
 end  
 
+def find_a(array)
+  array.select do |el|
+    el.start_with?("a")
+  end
+end
+
 
 
 
