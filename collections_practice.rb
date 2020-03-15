@@ -41,6 +41,16 @@ def sum_array(array)
   array.sum 
 end
 
+def add_s(array)
+  array.map.with_index do |el, i|
+    if i != 1 
+      "#{el}s"
+    else 
+      el
+  end
+end
+
+
 
 
 
